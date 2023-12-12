@@ -7,8 +7,8 @@ function App() {
 
 
   return (
-    <main className='font-["Fira_Code",_monospace;] bg-black text-white grid top-0'>
-      <Home className=''/>
+    <main className='font-["Oswald",_sans-serif;] font-normal bg-black text-white grid top-0 w-screen h-screen'>
+      <Home/>
     </main>
   )
 }
