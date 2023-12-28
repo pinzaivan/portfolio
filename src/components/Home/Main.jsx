@@ -7,10 +7,7 @@ export const Main = () => {
   return (
     <main>
       <AboutMe />
-
       <Presentation />
-
-      <Projects />
     </main>
   );
 };

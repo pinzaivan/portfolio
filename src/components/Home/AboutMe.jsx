@@ -3,7 +3,7 @@ import React from 'react';
 export const AboutMe = () => {
   return (
     <main>
-      <section className="text-xl flex flex-col gap-5 fixed left-6 w-[30%]">
+      <section className="text-xl grid gap-8 fixed left-6 w-[30%] h-[90%]">
         <h2 className='text-4xl font-bold font-["Oswald",_sans-serif;]'>
           Hola, soy
         </h2>
@@ -23,7 +23,7 @@ export const AboutMe = () => {
           <li>Repositorios Back-end</li>
         </ul>
 
-        <ul className="flex text-2xl gap-4 mt-16">
+        <ul className="flex text-2xl gap-4">
           <a href="https://github.com/pinzaivan" class="bx bxl-github"></a>
           <a
             href="https://www.linkedin.com/in/ivan-dario-jojoa-pinza-542557244/?originalSubdomain=co"

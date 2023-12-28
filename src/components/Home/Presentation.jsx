@@ -1,12 +1,13 @@
 import React from 'react';
+import { Projects } from './Projects';
 
 export const Presentation = () => {
   return (
     <main>
-      <section className="fixed w-[45%] h-screen left-[40%] text-justify">
-        <h2 className="text-yellow-500 font-semibold text-xl">Acerca de mi</h2>
+      <section className="absolute w-[60%] h-screen left-[32%] text-justify">
+        <h2 className="text-yellow-500 font-semibold text-2xl">Acerca de mi</h2>
         <p className="font-light">
-          {' '}
+          <br></br>
           Soy una persona organizada, responsable y con una gran motivación, soy
           capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de
           mí en cualquier proyecto, al mismo tiempo me esfuerzo por trabajar en
@@ -24,17 +25,29 @@ export const Presentation = () => {
             <h3 className="text-yellow-500">Educación</h3>
             <li>
               Geografo<br></br>
-              <span className="text-sm">Universidad de Nariño, 2022</span>
+              <span className="text-sm font-light">
+                Universidad de Nariño, 2022
+              </span>
+            </li>
+            <br></br>
+            <li>
+              Desarrollador web Full Stack<br></br>
+              <span className="text-sm font-light">ACADEMLO, 2023</span>
             </li>
           </ul>
           <ul>
             <h3 className="text-yellow-500">Habilidades</h3>
             <li>
               Certificado eficiencia en ingles<br></br>
-              <span className="text-sm">Universidad de Nariño, 2019</span>
+              <span className="text-sm font-light">
+                Universidad de Nariño, 2019
+              </span>
             </li>
           </ul>
         </div>
+        <br></br>
+        <br></br>
+        <Projects />
       </section>
     </main>
   );

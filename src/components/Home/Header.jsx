@@ -6,6 +6,7 @@ export const Header = () => {
       <nav>
         <h2 className="text-xs text-yellow-500"> hamburguesa</h2>
       </nav>
+      <br></br>
     </section>
   );
 };
