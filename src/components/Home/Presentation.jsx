@@ -1,5 +1,6 @@
 import React from 'react';
 import { Projects } from './Projects';
+import { Backend } from './Backend';
 
 export const Presentation = () => {
   return (
@@ -8,21 +9,25 @@ export const Presentation = () => {
         <h2 className="text-yellow-500 font-semibold text-2xl">Acerca de mi</h2>
         <p className="font-light">
           <br></br>
-          Soy una persona organizada, responsable y con una gran motivación, soy
-          capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de
-          mí en cualquier proyecto, al mismo tiempo me esfuerzo por trabajar en
-          equipo y fomentar valores como el compañerismo.<br></br>
+          Soy una persona organizada y responsable, con una fuerte motivación
+          para enfrentar nuevos desafíos. Mi capacidad para adaptarme
+          rápidamente a diversas circunstancias me permite brindar siempre un
+          desempeño excepcional en cualquier proyecto en el que me involucre.
+          Valorizo enormemente el trabajo en equipo y creo firmemente en la
+          importancia del compañerismo y la colaboración.<br></br>
           <br></br>
-          Además me encantaría pertenecer a una empresa que permita mi
-          desarrollo profesional, gracias a mi formación especializada,
-          considero que puedo aportar valor y seguir desarrollándome
-          profesionalmente en una compañía que coincida con mis valores y
-          expectativas.<br></br>
+          Estoy buscando una oportunidad en una empresa que no solo valore mis
+          habilidades y experiencia, sino que también me brinde la oportunidad
+          de crecimiento profesional. Con una formación especializada y una
+          pasión por la excelencia, estoy seguro de que puedo aportar un valor
+          significativo y contribuir al éxito de la empresa, al tiempo que
+          continúo mi desarrollo y aprendizaje en un entorno que resuene con mis
+          valores personales y aspiraciones profesionales.<br></br>
           <br></br>
         </p>
         <div className="flex gap-20">
           <ul>
-            <h3 className="text-yellow-500">Educación</h3>
+            <h3 className="text-yellow-500 text-xl pb-2">Educación</h3>
             <li>
               Geografo<br></br>
               <span className="text-sm font-light">
@@ -36,7 +41,7 @@ export const Presentation = () => {
             </li>
           </ul>
           <ul>
-            <h3 className="text-yellow-500">Habilidades</h3>
+            <h3 className="text-yellow-500 text-xl pb-2">Habilidades</h3>
             <li>
               Certificado eficiencia en ingles<br></br>
               <span className="text-sm font-light">
@@ -48,6 +53,9 @@ export const Presentation = () => {
         <br></br>
         <br></br>
         <Projects />
+        <br></br>
+        <br></br>
+        <Backend />
       </section>
     </main>
   );

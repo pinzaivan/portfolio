@@ -3,10 +3,13 @@ import React from 'react';
 export const AboutMe = () => {
   return (
     <main>
-      <section className="text-xl grid gap-8 fixed left-6 w-[30%] h-[90%]">
+      <section className="text-xl grid gap-6 fixed left-6 w-[30%] h-[80%]">
         <h2 className='text-4xl font-bold font-["Oswald",_sans-serif;]'>
           Hola, soy
         </h2>
+        <div className="w-[250px] h-[250px] overflow-hidden rounded-[50%] ">
+          <img src="/images/foto.jpg" alt="" />
+        </div>
         <h1 className='text-yellow-500 text-6xl font-bold font-["Oswald",_sans-serif;]'>
           Ivan Jojoa
         </h1>
@@ -23,7 +26,7 @@ export const AboutMe = () => {
           <li>Repositorios Back-end</li>
         </ul>
 
-        <ul className="flex text-2xl gap-4">
+        <ul className="flex text-4xl gap-8">
           <a href="https://github.com/pinzaivan" class="bx bxl-github"></a>
           <a
             href="https://www.linkedin.com/in/ivan-dario-jojoa-pinza-542557244/?originalSubdomain=co"
