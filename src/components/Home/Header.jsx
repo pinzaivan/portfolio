@@ -1,5 +1,4 @@
 import React from 'react';
-import { Projects } from './Main';
 
 export const Header = () => {
   return (
