@@ -5,7 +5,7 @@ import { Home } from './pages/Home';
 
 function App() {
   return (
-    <main className='font-["Oswald",_sans-serif;] font-normal grid'>
+    <main className='font-principal grid text-secondary'>
       <Home />
     </main>
   );
