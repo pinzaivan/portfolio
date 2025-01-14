@@ -47,7 +47,6 @@ export const Presentation = () => {
               </span>
             </li>
           </ul>
-       
         </div>
         <br></br>
         <br></br>

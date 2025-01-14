@@ -17,7 +17,9 @@ export const AboutMe = () => {
           Desarrollador web <br></br>Front end - Back end
         </h2>
         <h3 className="text-xl">
-        Creo productos digitales efectivos, trabajando en el desarrollo del back-end y del front-end para ofrecer experiencias completas y de calidad.
+          Creo productos digitales efectivos, trabajando en el desarrollo del
+          back-end y del front-end para ofrecer experiencias completas y de
+          calidad.
         </h3>
         <ul className="grid font-extralight gap-2">
           <li>Acerca de mi</li>
