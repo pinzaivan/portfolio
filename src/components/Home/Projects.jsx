@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Projects = () => {
   return (
-    <main>
+    <main className="absolute left-[32%]">
       <h1 className="className= text-yellow-500 font-semibold text-2xl">
         Proyectos front end
       </h1>

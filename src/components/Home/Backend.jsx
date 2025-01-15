@@ -2,12 +2,12 @@ import React from 'react';
 
 export const Backend = () => {
   return (
-    <main>
+    <main class="absolute left-[32%]">
       <h1 className="className= text-yellow-500 font-semibold text-2xl mb-8">
         Proyectos Back end
       </h1>
       <section className="grid grid-cols-3 gap-20">
-        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-12">
+        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1">
           <h2 className="pb-2 text-xl text-center">BANK</h2>
           <p className="pt-3 font-light">
             Es una aplicación de backend desarrollada en Node.js con SQL, que

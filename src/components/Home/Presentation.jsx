@@ -5,9 +5,9 @@ import { Backend } from './Backend';
 export const Presentation = () => {
   return (
     <main>
-      <section className="absolute w-[60%] h-screen left-[32%] text-justify">
+      <section className="absolute h-full w-full left-[32%] text-justify">
         <h2 className="text-yellow-500 font-semibold text-2xl">Acerca de mi</h2>
-        <p className="font-light text-2xl">
+        <p className="font-light text-2xl max-w-4xl ">
           <br></br>
           Soy una persona organizada y responsable, con una fuerte motivación
           para enfrentar nuevos desafíos. Mi capacidad para adaptarme
@@ -48,12 +48,6 @@ export const Presentation = () => {
             </li>
           </ul>
         </div>
-        <br></br>
-        <br></br>
-        <Projects />
-        <br></br>
-        <br></br>
-        <Backend />
       </section>
     </main>
   );
