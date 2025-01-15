@@ -1,11 +1,10 @@
 import React from 'react';
-import { Projects } from './Projects';
-import { Backend } from './Backend';
+import { Contact } from './Contact';
 
 export const Presentation = () => {
   return (
     <main>
-      <section className="absolute h-full w-full left-[32%] text-justify">
+      <section className="absolute left-[32%] text-justify">
         <h2 className="text-yellow-500 font-semibold text-2xl">Acerca de mi</h2>
         <p className="font-light text-2xl max-w-4xl ">
           <br></br>
@@ -48,6 +47,7 @@ export const Presentation = () => {
             </li>
           </ul>
         </div>
+        <Contact />
       </section>
     </main>
   );

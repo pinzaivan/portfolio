@@ -7,7 +7,7 @@ export const Backend = () => {
         Proyectos Back end
       </h1>
       <section className="grid grid-cols-3 gap-20">
-        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1">
+        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1 hover:bg-gray-800">
           <h2 className="pb-2 text-xl text-center">BANK</h2>
           <p className="pt-3 font-light">
             Es una aplicación de backend desarrollada en Node.js con SQL, que
