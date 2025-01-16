@@ -5,7 +5,7 @@ import { Home } from './pages/Home';
 
 function App() {
   return (
-    <main className='font-principal grid text-secondary'>
+    <main className="font-principal text-secondary">
       <Home />
     </main>
   );

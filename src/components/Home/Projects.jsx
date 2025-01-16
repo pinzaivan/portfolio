@@ -1,4 +1,5 @@
 import React from 'react';
+import { Contact } from './Contact';
 
 export const Projects = () => {
   return (
@@ -147,6 +148,7 @@ export const Projects = () => {
           </ul>
         </div>
       </section>
+      <Contact />
     </main>
   );
 };

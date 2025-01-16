@@ -2,12 +2,11 @@ import React from 'react';
 
 export const Contact = () => {
   return (
-    <main className="mt-60 mb-20">
-      <h1 className="className= text-yellow-500 font-semibold text-2xl mb-8">
-        Contactame
-      </h1>
-
+    <main className="mt-40 mb-20">
       <section className="bg-black border-dotted border-white border-t border-b p-8 rounded-lg shadow-lg w-full max-w-3xl mx-auto">
+        <h1 className="className= text-yellow-500 font-semibold text-2xl mb-8">
+          Contactame
+        </h1>
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -65,7 +64,7 @@ export const Contact = () => {
               placeholder="Escribe tu mensaje"
               rows="5"
               required
-              className="mt-1 p-2 border border-gray-300 rounded w-full text-black"
+              className="mt-1 p-2 border border-gray-300 rounded w-full text-black  "
             ></textarea>
           </div>
 
