@@ -1,19 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 export const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setSending(true);
+    setError('');
+    setSent(false);
+
+    emailjs
+      .send(
+        'service_0ib8wib', // Sustituir con tu Service ID
+        'template_b4iwp2y', // Sustituir con tu Template ID
+        formData,
+        'xIfaeYjGzbnzNvOI7', // Sustituir con tu User ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSending(false);
+          setSent(true);
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          console.log(error.text);
+          setSending(false);
+          setError('Hubo un problema al enviar el mensaje. Intenta de nuevo.');
+        },
+      );
+  };
+
   return (
     <main className="mt-40 mb-20 z-10 hover:bg-black">
       <section className="border-dotted border-white border-t border-b p-8 rounded-lg shadow-lg w-full max-w-3xl mx-auto">
-        <h1 className="className= text-yellow-500 font-semibold text-2xl mb-8">
+        <h1 className="text-yellow-500 font-semibold text-2xl mb-8">
           Contactame
         </h1>
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            // Lógica para manejar el envío de datos
-          }}
-          className="flex flex-col gap-4"
-        >
+
+        {/* Mostrar mensaje de éxito */}
+        {sent && (
+          <div className="text-green-500 mb-4">¡Mensaje enviado con éxito!</div>
+        )}
+
+        {/* Mostrar mensaje de error */}
+        {error && <div className="text-red-500 mb-4">{error}</div>}
+
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           {/* Campo de Nombre */}
           <div>
             <label
@@ -27,6 +77,8 @@ export const Contact = () => {
               id="name"
               name="name"
               placeholder="Ingresa tu nombre"
+              value={formData.name}
+              onChange={handleChange}
               required
               className="mt-1 p-2 border border-gray-300 rounded w-full text-black"
             />
@@ -36,7 +88,7 @@ export const Contact = () => {
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-secondary"
+              className="block text-sm font-medium text-white"
             >
               Correo Electrónico
             </label>
@@ -45,6 +97,8 @@ export const Contact = () => {
               id="email"
               name="email"
               placeholder="Ingresa tu correo electrónico"
+              value={formData.email}
+              onChange={handleChange}
               required
               className="mt-1 p-2 border border-gray-300 rounded w-full text-black"
             />
@@ -54,7 +108,7 @@ export const Contact = () => {
           <div>
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-secondary"
+              className="block text-sm font-medium text-white"
             >
               Mensaje
             </label>
@@ -62,18 +116,23 @@ export const Contact = () => {
               id="message"
               name="message"
               placeholder="Escribe tu mensaje"
+              value={formData.message}
+              onChange={handleChange}
               rows="5"
               required
-              className="mt-1 p-2 border border-gray-300 rounded w-full text-black  "
+              className="mt-1 p-2 border border-gray-300 rounded w-full text-black"
             ></textarea>
           </div>
 
           {/* Botón de Enviar */}
           <button
             type="submit"
-            className="bg-gray-500 text-white py-2 px-4 rounded hover:bg-principal mb-20"
+            className={`bg-gray-500 text-white py-2 px-4 rounded hover:bg-principal mb-20 ${
+              sending ? 'cursor-not-allowed opacity-50' : ''
+            }`}
+            disabled={sending}
           >
-            Enviar Mensaje
+            {sending ? 'Enviando...' : 'Enviar Mensaje'}
           </button>
         </form>
       </section>
