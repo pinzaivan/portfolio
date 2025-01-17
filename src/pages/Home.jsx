@@ -1,6 +1,5 @@
 import React from 'react';
 import { Header } from '../components/Home/Header';
-import { Presentation } from '../components/Home/Presentation';
 import { AboutMe } from '../components/Home/AboutMe';
 
 export const Home = () => {

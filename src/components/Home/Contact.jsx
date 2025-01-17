@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Contact = () => {
   return (
-    <main className="mt-40 mb-20">
-      <section className="bg-black border-dotted border-white border-t border-b p-8 rounded-lg shadow-lg w-full max-w-3xl mx-auto">
+    <main className="mt-40 mb-20 z-10 hover:bg-black">
+      <section className="border-dotted border-white border-t border-b p-8 rounded-lg shadow-lg w-full max-w-3xl mx-auto">
         <h1 className="className= text-yellow-500 font-semibold text-2xl mb-8">
           Contactame
         </h1>

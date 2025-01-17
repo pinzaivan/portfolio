@@ -21,6 +21,26 @@
 
     <title>Portafolio</title>
   </head>
+  <style>
+    body {
+      background-color: black; /* Fondo secundario */
+      margin: 0;
+      position: relative; /* Necesario para que el pseudo-elemento se posicione correctamente */
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: url('/images/base.PNG') no-repeat center center fixed;
+      background-size: contain;
+      opacity: 0.25; /* Transparencia de la imagen */
+      z-index: -1; /* Envía el pseudo-elemento al fondo */
+    }
+  </style>
   <body class="bg-black">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

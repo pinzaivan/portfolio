@@ -9,7 +9,7 @@ export const Projects = () => {
       </h1>
       <br></br>
       <section className="h-full grid grid-cols-2 gap-20">
-        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3">
+        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3 hover:bg-black">
           <h2 className="pb-2 text-xl text-center">INFOGALAX</h2>
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_1.png" alt="" className="w-full h-full" />
@@ -36,7 +36,7 @@ export const Projects = () => {
             </li>
           </ul>
         </div>
-        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3">
+        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3 hover:bg-black">
           <h2 className="pb-2 text-xl text-center">WHEATHER UBICATION</h2>
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_2.png" alt="" className="w-full h-full" />
@@ -63,7 +63,7 @@ export const Projects = () => {
             </li>
           </ul>
         </div>
-        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3">
+        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3 hover:bg-black">
           <h2 className="pb-2 text-xl text-center">RICK AND MORTY</h2>
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_3.png" alt="" className="w-full h-full" />
@@ -91,7 +91,7 @@ export const Projects = () => {
             </li>
           </ul>
         </div>
-        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3">
+        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3 hover:bg-black">
           <h2 className="pb-2 text-xl text-center">
             Create Read Update Delete "C.R.U.D."
           </h2>
@@ -120,7 +120,7 @@ export const Projects = () => {
             </li>
           </ul>
         </div>
-        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3">
+        <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3 hover:bg-black">
           <h2 className="pb-2 text-xl text-center">E-COMERCE</h2>
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_5.png" alt="" className="w-full h-full" />
