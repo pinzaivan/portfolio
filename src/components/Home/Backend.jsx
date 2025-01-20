@@ -8,7 +8,7 @@ export const Backend = () => {
         Proyectos Back end
       </h1>
       <section class="grid grid-cols-3 gap-20 ">
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1 hover:bg-black">
+        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1 hover:bg-black text-justify">
           <h2 class="pb-2 text-xl text-center">BANK</h2>
           <p class="pt-3 font-light">
             Es una aplicación de backend desarrollada en Node.js con SQL, que
@@ -25,7 +25,7 @@ export const Backend = () => {
             </li>
           </ul>
         </div>
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black">
+        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
           <h2 class="pb-2 text-xl text-center">MEALS</h2>
           <p class="pt-3 font-light">
             Una aplicación de backend diseñada para gestionar restaurantes
@@ -42,12 +42,12 @@ export const Backend = () => {
           <ul class="flex gap-10 justify-center">
             <li class="hover:text-yellow-500">
               <a href="https://github.com/pinzaivan/Back_meals.git">
-                REPAIRS - Git-Hub
+                MEALS - Git-Hub
               </a>
             </li>
           </ul>
         </div>
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black">
+        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
           <h2 class="pb-2 text-xl text-center">REPAIRS</h2>
           <p class="pt-3 font-light">
             Una aplicación de backend diseñada para gestionar un taller mediante
@@ -69,7 +69,7 @@ export const Backend = () => {
             </li>
           </ul>
         </div>
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black">
+        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
           <h2 class="pb-2 text-xl text-center">VALIDADOR</h2>
           <p class="pt-3 font-light">
             Una herramienta desarrollada en Python 2.7 para realizar

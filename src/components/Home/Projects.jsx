@@ -14,7 +14,7 @@ export const Projects = () => {
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_1.png" alt="" className="w-full h-full" />
           </div>
-          <p className="pt-3 font-light">
+          <p className="pt-3 font-light text-justify">
             Esta plataforma web combina imágenes con datos seleccionados
             aleatoriamente. Cada resultado incluye detalles como la fuente
             original. Mediante un botón de actualización, se refrescan tanto la
@@ -41,7 +41,7 @@ export const Projects = () => {
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_2.png" alt="" className="w-full h-full" />
           </div>
-          <p className="pt-3 font-light">
+          <p className="pt-3 font-light text-justify">
             Una app que, permitiendole acceso a la ubicación, proporciona
             información climática local, incluyendo temperatura, precipitación,
             vientos y humedad. Además, integra un botón para alternar entre
@@ -68,7 +68,7 @@ export const Projects = () => {
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_3.png" alt="" className="w-full h-full" />
           </div>
-          <p className="pt-3 font-light">
+          <p className="pt-3 font-light text-justify">
             Explora nuestra página interactiva que se conecta a un API de 'Rick
             y Morty'. Visualiza detalles universales como habitantes,
             dimensiones y tipo. Las tarjetas individuales muestran residentes
@@ -98,7 +98,7 @@ export const Projects = () => {
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_4.png" alt="" className="w-full h-full" />
           </div>
-          <p className="pt-3 font-light">
+          <p className="pt-3 font-light text-justify">
             Descubre nuestra página con funcionalidad CRUD, permitiendo crear,
             leer, actualizar y eliminar usuarios. La interfaz guía al usuario,
             solicitando datos que cumplen criterios esenciales, como asegurar un
@@ -125,7 +125,7 @@ export const Projects = () => {
           <div className="w-[375px] h-[350px] overflow-hidden">
             <img src="/images/project_5.png" alt="" className="w-full h-full" />
           </div>
-          <p className="pt-3 font-light">
+          <p className="pt-3 font-light text-justify">
             Un e-commerce robusto con funcionalidades CRUD para usuarios
             verificados. Desde explorar y modificar productos hasta finalizar
             compras, la plataforma asegura una experiencia de compra
