@@ -45,7 +45,7 @@ export const AboutMe = () => {
   }, [Visible]);
 
   return (
-    <main className="flex gap-10">
+    <main className="flex gap-10 pt-10">
       <section className="text-xl grid left-6 w-[30%] h-[90%] gap-6 fixed">
         <h2 className='text-4xl font-bold font-["Oswald",_sans-serif;]'>
           Hola, soy

@@ -24,28 +24,57 @@ export const Presentation = () => {
           valores personales y aspiraciones profesionales.<br></br>
           <br></br>
         </p>
-        <div className="flex gap-20">
+        <div className="grid grid-cols-2 pb-10">
           <ul>
             <h3 className="text-yellow-500 text-xl pb-2">Educación</h3>
-            <li>
+            <li className="text-xl">
               Geografo<br></br>
               <span className="text-sm font-light">
                 Universidad de Nariño, 2022
               </span>
             </li>
             <br></br>
-            <li>
+            <li className="text-xl">
               Desarrollador web Full Stack<br></br>
               <span className="text-sm font-light">ACADEMLO, 2023</span>
             </li>
             <br></br>
-            <li>
+            <li className="text-xl">
               Certificado eficiencia en ingles<br></br>
               <span className="text-sm font-light">
                 Universidad de Nariño, 2019
               </span>
             </li>
           </ul>
+          <div class="  ">
+            <h3 class="text-yellow-500 text-xl pb-2">Conocimientos</h3>
+            <ul class="grid grid-cols-3 gap-10">
+              <li className="flex flex-col justify-center text-center">
+                <i class="bx bxl-javascript text-5xl"></i>
+                JAVASCRIPT
+              </li>
+              <li className="flex flex-col justify-center text-center">
+                <i class="bx bxl-html5 text-5xl"></i>
+                HTML
+              </li>
+              <li className="flex flex-col justify-center text-center">
+                <i class="bx bxl-css3 text-5xl"></i>
+                CSS
+              </li>
+              <li className="flex flex-col justify-center text-center">
+                <i class="bx bxl-react text-5xl"></i>
+                REACT
+              </li>
+              <li className="flex flex-col justify-center text-center">
+                <i class="bx bxl-tailwind-css text-5xl"></i>
+                TAILWIND
+              </li>
+              <li className="flex flex-col justify-center text-center">
+                <i class="bx bxl-nodejs text-5xl"></i>
+                NODE.JS
+              </li>
+            </ul>
+          </div>
         </div>
         <Contact />
       </section>

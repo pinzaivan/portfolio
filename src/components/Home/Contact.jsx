@@ -28,10 +28,10 @@ export const Contact = () => {
 
     emailjs
       .send(
-        'service_0ib8wib', // Sustituir con tu Service ID
-        'template_b4iwp2y', // Sustituir con tu Template ID
+        'service_0ib8wib',
+        'template_b4iwp2y',
         formData,
-        'xIfaeYjGzbnzNvOI7', // Sustituir con tu User ID
+        'xIfaeYjGzbnzNvOI7',
       )
       .then(
         (result) => {
