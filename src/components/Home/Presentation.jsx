@@ -1,5 +1,4 @@
 import React from 'react';
-import { Contact } from './Contact';
 
 export const Presentation = () => {
   return (
@@ -76,7 +75,6 @@ export const Presentation = () => {
             </ul>
           </div>
         </div>
-        <Contact />
       </section>
     </main>
   );

@@ -148,7 +148,6 @@ export const Projects = () => {
           </ul>
         </div>
       </section>
-      <Contact />
     </main>
   );
 };

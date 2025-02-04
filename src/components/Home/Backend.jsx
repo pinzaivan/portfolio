@@ -1,5 +1,4 @@
 import React from 'react';
-import { Contact } from './Contact';
 
 export const Backend = () => {
   return (
@@ -92,7 +91,6 @@ export const Backend = () => {
           </ul>
         </div>
       </section>
-      <Contact />
     </main>
   );
 };
