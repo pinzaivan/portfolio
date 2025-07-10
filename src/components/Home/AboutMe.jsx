@@ -45,16 +45,16 @@ export const AboutMe = () => {
   }, [Visible]);
 
   return (
-    <main className="flex gap-10 pt-10">
-      <section className="text-xl grid left-6 w-[30%] h-[90%] gap-6 fixed">
+    <main className="flex flex-col gap-10 w-full md:flex-row pt-10 ">
+      <section className="text-xl w-full px-4 md:w-[30%] md:h-screen md:sticky md:top-0">
         <h2 className='text-4xl font-bold font-["Oswald",_sans-serif;]'>
           Hola, soy
         </h2>
-        <div className="w-[250px] h-[250px] overflow-hidden rounded-[50%]">
+        <div className="hidden md:block w-[250px] h-[250px] overflow-hidden rounded-[50%]">
           <img src="/images/foto.jpg" alt="" />
         </div>
         <h1 className='text-principal text-6xl font-bold font-["Oswald",_sans-serif;]'>
-          Ivan Jojoaa
+          Ivan Jojoa
         </h1>
         <h2 className="text-3xl font-bold">
           Desarrollador web <br /> Front end - Back end
@@ -103,7 +103,7 @@ export const AboutMe = () => {
         </ul>
       </section>
       <section
-        className={`w-full relative transition-opacity duration-200 ${animationClass}`}
+        className={`relative w-full md:w-[70%] transition-opacity duration-200 ${animationClass}`}
       >
         {content}
       </section>

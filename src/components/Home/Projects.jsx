@@ -3,12 +3,12 @@ import { Contact } from './Contact';
 
 export const Projects = () => {
   return (
-    <main className="absolute left-[32%]">
+    <main className="w-full px-4 md:w-[100%] mx-auto">
       <h1 className="className= text-yellow-500 font-semibold text-2xl">
         Proyectos front end
       </h1>
       <br></br>
-      <section className="h-full grid grid-cols-2 gap-20">
+      <section className="grid h-full w-full-xl grid-cols-1 gap-10 xl:grid-cols-2">
         <div className="h-[630px] w-[400px] border-t border-b border-dotted border-white p-3 hover:bg-black">
           <h2 className="pb-2 text-xl text-center">INFOGALAX</h2>
           <div className="w-[375px] h-[350px] overflow-hidden">

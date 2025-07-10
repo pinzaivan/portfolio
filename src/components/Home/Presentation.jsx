@@ -3,9 +3,9 @@ import React from 'react';
 export const Presentation = () => {
   return (
     <main>
-      <section className="absolute left-[32%] text-justify">
+      <section className="absolute text-justify md:left-[32%]">
         <h2 className="text-yellow-500 font-semibold text-2xl">Acerca de mi</h2>
-        <p className="font-light text-2xl max-w-4xl ">
+        <p className="font-light md:text-2xl max-w-4xl mr-10">
           <br></br>
           Soy una persona organizada y responsable, con una fuerte motivación
           para enfrentar nuevos desafíos. Mi capacidad para adaptarme
@@ -23,7 +23,7 @@ export const Presentation = () => {
           valores personales y aspiraciones profesionales.<br></br>
           <br></br>
         </p>
-        <div className="grid grid-cols-2 pb-10">
+        <div className="grid md:grid-cols-2 pb-10 ">
           <ul>
             <h3 className="text-yellow-500 text-xl pb-2">Educación</h3>
             <li className="text-xl">
@@ -45,7 +45,7 @@ export const Presentation = () => {
               </span>
             </li>
           </ul>
-          <div class="  ">
+          <div class="mt-10">
             <h3 class="text-yellow-500 text-xl pb-2">Conocimientos</h3>
             <ul class="grid grid-cols-3 gap-10">
               <li className="flex flex-col justify-center text-center">

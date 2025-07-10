@@ -2,11 +2,11 @@ import React from 'react';
 
 export const Backend = () => {
   return (
-    <main class="ml-32">
+    <main class="ml-3absolute md:left-[32%]">
       <h1 class="class= text-yellow-500 font-semibold text-2xl mb-8">
         Proyectos Back end
       </h1>
-      <section class="grid grid-cols-3 gap-20 ">
+      <section class="h-full grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1 hover:bg-black text-justify">
           <h2 class="pb-2 text-xl text-center">BANK</h2>
           <p class="pt-3 font-light">

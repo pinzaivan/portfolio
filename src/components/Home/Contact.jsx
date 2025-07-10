@@ -55,16 +55,13 @@ export const Contact = () => {
           Contactame
         </h1>
 
-        {/* Mostrar mensaje de éxito */}
         {sent && (
           <div className="text-green-500 mb-4">¡Mensaje enviado con éxito!</div>
         )}
 
-        {/* Mostrar mensaje de error */}
         {error && <div className="text-red-500 mb-4">{error}</div>}
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-          {/* Campo de Nombre */}
           <div>
             <label
               htmlFor="name"
@@ -84,7 +81,6 @@ export const Contact = () => {
             />
           </div>
 
-          {/* Campo de Correo Electrónico */}
           <div>
             <label
               htmlFor="email"
@@ -104,7 +100,6 @@ export const Contact = () => {
             />
           </div>
 
-          {/* Campo de Mensaje */}
           <div>
             <label
               htmlFor="message"
@@ -124,7 +119,6 @@ export const Contact = () => {
             ></textarea>
           </div>
 
-          {/* Botón de Enviar */}
           <button
             type="submit"
             className={`bg-gray-500 text-white py-2 px-4 rounded hover:bg-principal mb-20 ${
