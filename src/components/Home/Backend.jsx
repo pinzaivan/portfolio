@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Backend = () => {
   return (
-    <main class="ml-3absolute md:left-[32%]">
+    <main class="w-full px-4 md:w-[100%] mx-auto">
       <h1 class="class= text-yellow-500 font-semibold text-2xl mb-8">
         Proyectos Back end
       </h1>

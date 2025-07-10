@@ -3,7 +3,7 @@ import React from 'react';
 export const Presentation = () => {
   return (
     <main>
-      <section className="absolute text-justify md:left-[32%]">
+      <section className="w-full px-4 md:w-[100%] mx-auto">
         <h2 className="text-yellow-500 font-semibold text-2xl">Acerca de mi</h2>
         <p className="font-light md:text-2xl max-w-4xl mr-10">
           <br></br>
