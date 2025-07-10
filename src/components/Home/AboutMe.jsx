@@ -54,7 +54,7 @@ export const AboutMe = () => {
           <img src="/images/foto.jpg" alt="" />
         </div>
         <h1 className='text-principal text-6xl font-bold font-["Oswald",_sans-serif;]'>
-          Ivan Jojoa
+          Ivan Jojoaa
         </h1>
         <h2 className="text-3xl font-bold">
           Desarrollador web <br /> Front end - Back end
