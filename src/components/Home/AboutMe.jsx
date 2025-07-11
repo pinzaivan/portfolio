@@ -3,6 +3,7 @@ import { Projects } from './Projects';
 import { Presentation } from './Presentation';
 import { Backend } from './Backend';
 import { Contact } from './Contact';
+import { Maps } from './Maps';
 
 export const AboutMe = () => {
   const [Visible, setVisible] = useState('');
@@ -34,6 +35,9 @@ export const AboutMe = () => {
           case 'Contact':
             setContent(<Contact />);
             break;
+          case 'Maps':
+            setContent(<Maps />);
+            break;
           default:
             setContent(null);
         }
@@ -45,7 +49,7 @@ export const AboutMe = () => {
   }, [Visible]);
 
   return (
-    <main className="flex flex-col w-full md:flex-row pt-5">
+    <main className="flex flex-col w-full md:flex-row pt-10">
       <section className="grid grid-cols-1 gap-5 md:gap-0 text-xl w-full px-4 md:w-[30%] md:h-screen md:sticky md:top-0">
         <h2 className='text-4xl font-bold font-["Oswald",_sans-serif;]'>
           Hola, soy
@@ -57,6 +61,7 @@ export const AboutMe = () => {
           Ivan Jojoa
         </h1>
         <h2 className="text-3xl font-bold">
+          Geografo <br />
           Desarrollador web <br /> Front end - Back end
         </h2>
 
@@ -78,6 +83,12 @@ export const AboutMe = () => {
             onClick={() => setVisible('Backend')}
           >
             Repositorios Back-end
+          </button>
+          <button
+            className="hover:text-yellow-500 w-50"
+            onClick={() => setVisible('Maps')}
+          >
+            Mapas y escenas 3d
           </button>
           <button
             className="hover:text-yellow-500 w-50"
