@@ -51,7 +51,7 @@ export const AboutMe = () => {
           Hola, soy
         </h2>
         <div className="hidden lg:block lg:w-[250px] lg:h-[250px] overflow-hidden rounded-full">
-          <img src="/images/foto.jpg" alt="" />
+          <img src="/images/base.PNG" alt="" />
         </div>
         <h1 className='text-principal text-6xl font-bold font-["Oswald",_sans-serif;]'>
           Ivan Jojoa
