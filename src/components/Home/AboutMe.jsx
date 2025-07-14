@@ -40,8 +40,6 @@ export const AboutMe = () => {
             setContent(<Maps />);
             break;
           default:
-            setContent(<CesiumViewer />);
-            break;
         }
       },
       content ? 200 : 0,

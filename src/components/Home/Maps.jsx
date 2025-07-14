@@ -84,7 +84,7 @@ export const Maps = () => {
             </div>
         `;
         view.setCenter(coordinates);
-        view.setZoom(14);
+        view.setZoom(10);
       }
     });
 
