@@ -4,6 +4,7 @@ import { Presentation } from './Presentation';
 import { Backend } from './Backend';
 import { Contact } from './Contact';
 import { Maps } from './Maps';
+import { CesiumViewer } from './CesiumViewer';
 
 export const AboutMe = () => {
   const [Visible, setVisible] = useState('');
@@ -39,7 +40,8 @@ export const AboutMe = () => {
             setContent(<Maps />);
             break;
           default:
-            setContent(null);
+            setContent(<CesiumViewer />);
+            break;
         }
       },
       content ? 200 : 0,
@@ -88,7 +90,7 @@ export const AboutMe = () => {
             className="hover:text-yellow-500 w-50"
             onClick={() => setVisible('Maps')}
           >
-            Mapas y escenas 3d
+            Proyectos Mapas 3d
           </button>
           <button
             className="hover:text-yellow-500 w-50"

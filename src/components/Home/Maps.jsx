@@ -13,6 +13,7 @@ import VectorLayer from 'ol/layer/Vector';
 import { Style, Circle as CircleStyle, Fill, Stroke } from 'ol/style';
 import Overlay from 'ol/Overlay';
 import { toStringHDMS } from 'ol/coordinate';
+import { CesiumViewer } from './CesiumViewer';
 
 export const Maps = () => {
   const mapRef = useRef(null);
@@ -98,11 +99,15 @@ export const Maps = () => {
         Mapas y escenas 3d
       </h1>
 
-      <h2>Mapas 2d con OpneLayers</h2>
+      <h2 className="text-xl">Open Layers</h2>
       <br />
       <section className="border border-white p-2 rounded shadow-md max-w-4xl mx-auto">
         <div ref={mapRef} className="w-full h-[500px] rounded relative"></div>
         <div ref={popupRef} className="absolute z-10"></div>
+      </section>
+      <br />
+      <section>
+        <CesiumViewer />
       </section>
     </main>
   );
