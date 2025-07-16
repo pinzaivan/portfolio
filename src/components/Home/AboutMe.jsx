@@ -7,7 +7,7 @@ import { Maps } from './Maps';
 import { CesiumViewer } from './CesiumViewer';
 
 export const AboutMe = () => {
-  const [Visible, setVisible] = useState('');
+  const [Visible, setVisible] = useState('Cesium');
   const [animationClass, setAnimationClass] = useState('');
   const [content, setContent] = useState(null);
   useEffect(() => {
@@ -39,6 +39,8 @@ export const AboutMe = () => {
           case 'Maps':
             setContent(<Maps />);
             break;
+          case 'Cesium':
+            setContent(<CesiumViewer />);
           default:
         }
       },

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import {
+  Ion,
   Viewer,
   Cartesian3,
   Color,
@@ -12,6 +13,9 @@ import {
   Cartographic,
 } from 'cesium';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
+
+Ion.defaultAccessToken =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4NGIwNzhjYS1hY2M0LTRiMmYtOWJmOS02NjRjZjVmYjZjNDkiLCJpZCI6MzIxNDE0LCJpYXQiOjE3NTI1MTA5NTB9.s5gwP1lJS2ZXdhzkVAwoFpraaztAmxPuGA04hiZ2mNI';
 
 export const CesiumViewer = () => {
   const viewerRef = useRef(null);
