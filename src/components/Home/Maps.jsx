@@ -101,13 +101,30 @@ export const Maps = () => {
 
       <h2 className="text-xl">Open Layers</h2>
       <br />
-      <section className="border border-white p-2 rounded shadow-md max-w-4xl mx-auto">
+      <section className="p-2 max-w-4xl mx-auto">
         <div ref={mapRef} className="w-full h-[500px] rounded relative"></div>
         <div ref={popupRef} className="absolute z-10"></div>
       </section>
+      <p className="bg-black ">
+        Esta aplicación en React utiliza la librería OpenLayers para mostrar un
+        mapa interactivo con datos de OpenStreetMap. Implementa geolocalización
+        en tiempo real que ubica al usuario mediante un marcador personalizado,
+        mostrando sus coordenadas en un popup con formato legible. Usa capas
+        vectoriales, estilos personalizados y overlays para mejorar la
+        experiencia visual e interactiva del usuario en el mapa 2D.
+      </p>
       <br />
       <section>
         <CesiumViewer />
+        <p className="bg-black">
+          Este proyecto en React integra CesiumJS para crear una experiencia de
+          visualización 3D de mapas globales. Muestra puntos de interés como
+          Bogotá con iconos y etiquetas, y utiliza la API de geolocalización del
+          navegador para centrar la cámara en la ubicación del usuario. Incluye
+          interacción mediante clicks para mostrar coordenadas precisas en
+          pantalla, usando entidades, etiquetas y animaciones propias de Cesium
+          para ofrecer una cartografía avanzada y dinámica en 3D.
+        </p>
       </section>
     </main>
   );

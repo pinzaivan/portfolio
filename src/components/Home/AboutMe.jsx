@@ -5,6 +5,7 @@ import { Backend } from './Backend';
 import { Contact } from './Contact';
 import { Maps } from './Maps';
 import { CesiumViewer } from './CesiumViewer';
+import { IaProjects } from './IaProjects';
 
 export const AboutMe = () => {
   const [Visible, setVisible] = useState('Cesium');
@@ -41,6 +42,10 @@ export const AboutMe = () => {
             break;
           case 'Cesium':
             setContent(<CesiumViewer />);
+            break;
+          case 'IaProjects':
+            setContent(<IaProjects />);
+            break;
           default:
         }
       },
@@ -91,6 +96,12 @@ export const AboutMe = () => {
             onClick={() => setVisible('Maps')}
           >
             Proyectos Mapas 3d
+          </button>
+          <button
+            className="hover:text-yellow-500 w-50"
+            onClick={() => setVisible('IaProjectsr')}
+          >
+            Proyectos Inteligencia Artificial
           </button>
           <button
             className="hover:text-yellow-500 w-50"
