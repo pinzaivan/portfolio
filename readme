@@ -1,0 +1,32 @@
+# Portfolio Main
+
+Este proyecto está dividido en dos partes principales: **Frontend** y **Backend**.
+
+## Estructura del Proyecto
+
+```
+portfolio-main/
+│
+├── frontend/      # Contiene la aplicación web (React, Tailwind, etc.)
+│   ├── src/
+│   ├── public/
+│   └── ...otros archivos y carpetas del frontend
+│
+├── backend/       # Contiene la lógica del servidor y scripts (Python, etc.)
+│   ├── gpt4all_query.py
+│   ├── docs/
+│   │   └── cv.txt
+│   └── ...otros archivos y carpetas del backend
+│
+└── readme         # Este archivo
+```
+
+## Frontend
+
+- Implementado con React y Tailwind CSS.
+- Aquí se encuentran los componentes visuales y la lógica de la interfaz de usuario.
+
+## Backend
+
+
+---
