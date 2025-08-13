@@ -10,7 +10,10 @@ portfolio-main/
 ├── frontend/      # Contiene la aplicación web (React, Tailwind, etc.)
 │   ├── src/
 │   ├── public/
-│   └── ...otros archivos y carpetas del frontend
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── vite.config.js
 │
 ├── backend/       # Contiene la lógica del servidor y scripts (Python, etc.)
 │   ├── gpt4all_query.py
