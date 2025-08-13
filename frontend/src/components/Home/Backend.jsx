@@ -2,31 +2,31 @@ import React from 'react';
 
 export const Backend = () => {
   return (
-    <main class="w-full px-4 md:w-[100%] mx-auto">
-      <h1 class="class= text-yellow-500 font-semibold text-2xl mb-8">
+    <main classNameName="w-full px-4 md:w-[100%] mx-auto">
+      <h1 className="className= text-yellow-500 font-semibold text-2xl mb-8">
         Proyectos Back end
       </h1>
-      <section class="h-full grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1 hover:bg-black text-justify">
-          <h2 class="pb-2 text-xl text-center">BANK</h2>
-          <p class="pt-3 font-light">
+      <section className="h-full grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 flex flex-col items-center gap-1 hover:bg-black text-justify">
+          <h2 className="pb-2 text-xl text-center">BANK</h2>
+          <p className="pt-3 font-light">
             Es una aplicación de backend desarrollada en Node.js con SQL, que
             implementa operaciones CRUD utilizando peticiones GET, POST, PUT
             DELETE. Permite la creación de usuarios con sus respectivas claves y
             la realización de transferencias de dinero entre cuenta
           </p>
           <br></br>
-          <ul class="flex gap-10">
-            <li class="hover:text-yellow-500">
+          <ul className="flex gap-10">
+            <li className="hover:text-yellow-500">
               <a href="https://github.com/pinzaivan/Back_bank.git">
                 BANK - Git-Hub
               </a>
             </li>
           </ul>
         </div>
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
-          <h2 class="pb-2 text-xl text-center">MEALS</h2>
-          <p class="pt-3 font-light">
+        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
+          <h2 className="pb-2 text-xl text-center">MEALS</h2>
+          <p className="pt-3 font-light">
             Una aplicación de backend diseñada para gestionar restaurantes
             mediante operaciones CRUD completas (GET, POST, PUT y DELETE). Los
             usuarios pueden registrarse e iniciar sesión, y una vez
@@ -38,17 +38,17 @@ export const Backend = () => {
             el mantenimiento del proyecto
           </p>
           <br></br>
-          <ul class="flex gap-10 justify-center">
-            <li class="hover:text-yellow-500">
+          <ul className="flex gap-10 justify-center">
+            <li className="hover:text-yellow-500">
               <a href="https://github.com/pinzaivan/Back_meals.git">
                 MEALS - Git-Hub
               </a>
             </li>
           </ul>
         </div>
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
-          <h2 class="pb-2 text-xl text-center">REPAIRS</h2>
-          <p class="pt-3 font-light">
+        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
+          <h2 className="pb-2 text-xl text-center">REPAIRS</h2>
+          <p className="pt-3 font-light">
             Una aplicación de backend diseñada para gestionar un taller mediante
             operaciones CRUD completas (GET, POST, PUT y DELETE). Al crear un
             usuario, se asigna un rol de administrador o trabajador según las
@@ -60,17 +60,17 @@ export const Backend = () => {
             datos y con rutas organizadas.
           </p>
           <br></br>
-          <ul class="flex gap-10 justify-center">
-            <li class="hover:text-yellow-500">
+          <ul className="flex gap-10 justify-center">
+            <li className="hover:text-yellow-500">
               <a href="https://github.com/pinzaivan/Back_repairs.git">
                 REPAIRS - Git-Hub
               </a>
             </li>
           </ul>
         </div>
-        <div class="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
-          <h2 class="pb-2 text-xl text-center">VALIDADOR</h2>
-          <p class="pt-3 font-light">
+        <div className="h-[450px] w-[300px] border-t border-b border-dotted border-white p-3 hover:bg-black text-justify">
+          <h2 className="pb-2 text-xl text-center">VALIDADOR</h2>
+          <p className="pt-3 font-light">
             Una herramienta desarrollada en Python 2.7 para realizar
             validaciones alfanuméricas en los datos almacenados dentro de una
             Geodatabase (GDB) en ArcGIS 10.8. Este validador examina cada
@@ -82,8 +82,8 @@ export const Backend = () => {
             mismos.
           </p>
           <br></br>
-          <ul class="flex gap-10 justify-center">
-            <li class="hover:text-yellow-500">
+          <ul className="flex gap-10 justify-center">
+            <li className="hover:text-yellow-500">
               <a href="https://github.com/pinzaivan/validador_castastro_python.git">
                 VALIDADOR - Git-Hub
               </a>

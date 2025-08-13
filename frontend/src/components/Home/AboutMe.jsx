@@ -8,7 +8,7 @@ import { CesiumViewer } from './CesiumViewer';
 import { IaProjects } from './IaProjects';
 
 export const AboutMe = () => {
-  const [Visible, setVisible] = useState('Cesium');
+  const [Visible, setVisible] = useState('');
   const [animationClass, setAnimationClass] = useState('');
   const [content, setContent] = useState(null);
   useEffect(() => {
@@ -125,6 +125,9 @@ export const AboutMe = () => {
             className="bx bxl-gmail hover:text-principal"
           ></a>
         </ul>
+        <div>
+          <h1>Hola</h1>
+        </div>
       </section>
       <section
         className={`relative w-full pt-10 md:w-[70%] transition-opacity duration-200 ${animationClass}`}
