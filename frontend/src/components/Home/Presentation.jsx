@@ -23,7 +23,7 @@ export const Presentation = () => {
           valores personales y aspiraciones profesionales.<br></br>
           <br></br>
         </p>
-        <div className="grid md:grid-cols-2 pb-10 ">
+        <div className="grid md:grid-cols-2 pb-20 ">
           <ul>
             <h3 className="text-yellow-500 text-xl pb-2">Educación</h3>
             <li className="text-xl">

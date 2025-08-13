@@ -6,6 +6,7 @@ import { Contact } from './Contact';
 import { Maps } from './Maps';
 import { CesiumViewer } from './CesiumViewer';
 import { IaProjects } from './IaProjects';
+import 'boxicons/css/boxicons.min.css';
 
 export const AboutMe = () => {
   const [Visible, setVisible] = useState('');
@@ -125,15 +126,16 @@ export const AboutMe = () => {
             className="bx bxl-gmail hover:text-principal"
           ></a>
         </ul>
-        <div>
-          <h1>Hola</h1>
-        </div>
       </section>
       <section
         className={`relative w-full pt-10 md:w-[70%] transition-opacity duration-200 ${animationClass}`}
       >
         {content}
       </section>
+      <div className="absolute bottom-[3%] right-[6%] text-xl grid place-items-center">
+        <i className="bx bx-brain text-3xl"></i>
+        <h3>Chat IA</h3>
+      </div>
     </main>
   );
 };
